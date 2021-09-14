@@ -1,5 +1,5 @@
 import { ThemeProvider } from "styled-components";
-import { lightTheme, darkTheme, GlobalStyles } from "../themeConfig";
+import { lightTheme, darkTheme, GlobalStyles } from "../ThemeConfig";
 import { useState, useEffect } from "react";
 import { HiSun } from "react-icons/hi";
 import { HiMoon } from "react-icons/hi";
