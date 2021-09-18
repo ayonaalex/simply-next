@@ -18,7 +18,7 @@ export default Home;
 
 when we run this in local server we can see Hello World on screen, though we have never added any markup like `<html>` or `<body>` tags in this page but still we can see the h1 being rendererd on screen perfectly, if we check the page source we can see the markups been added by default... document.js in nextjs does this by default work for us.
 
-we know \_document.js file governs the page sturcture in nextjs, so we can use this file to agument our applicatios `<html>` or `<body>` tags, we need a custom \_document.js file for that,lets create a \_document.js file in our pages directory.
+Now we know \_document.js file governs the page structure in nextjs, so we can use this file to agument our applicatios `<html>` or `<body>` tags, we need a custom \_document.js file for that,lets create a \_document.js file in our pages directory.
 
 ```javascript
 import Document, { Html, Head, Main, NextScript } 
