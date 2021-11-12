@@ -1,6 +1,6 @@
 ---
 title: "Custom _document.js File in Next.js"
-date: "2020-01-01"
+date: "2021-09-01"
 summary: "Why we need a custom _document file,how we can cutomize pages using this file"
 ---
 
